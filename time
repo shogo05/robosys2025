@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText:2025 Shogo Uchida
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+def main():
+    for line in sys.stdin:
+        line = line.strip()
+        if not line:
+            continue
+            
+        try:
+            total_seconds = int(float(line))
+            minutes = total_seconds // 60
+            seconds = total_seconds % 60
+            print(f"{minutes}分{seconds}秒")
+                
+        except ValueError:
+            pass
+
+if __name__ == '__main__':
+    main()
