@@ -10,10 +10,10 @@ ng () {
 res=0
 
 out=$(echo 65 | ./sec2time)
-[ "${out}" = "1分5秒" ] || ng "$LINENO"
+[ "${out}" = "1:5" ] || ng "$LINENO"
 
 out=$(echo 120 | ./sec2time)
-[ "${out}" = "2分0秒" ] || ng "$LINENO"
+[ "${out}" = "2:0" ] || ng "$LINENO"
 
 out=$(echo あ | ./sec2time)
 [ "${out}" = "" ] || ng "$LINENO"
