@@ -14,7 +14,7 @@ def main():
             total_seconds = int(float(line))
             minutes = total_seconds // 60
             seconds = total_seconds % 60
-            print(f"{minutes}分{seconds}秒")
+            print(f"{minutes}:{seconds}")
                 
         except ValueError:
             pass
