@@ -15,7 +15,7 @@ $git clone https://github.com/shogo05/robosys2025.git
 $cd robosys2025
 ```
 
-## 必要に応じて実行権限を付与してください
+必要に応じて実行権限を付与してください
 
 ```
 $ chmod +x sec2time
