@@ -56,5 +56,4 @@ $ seq 60 10 90 | ./sec2time
 
 このパッケージのディレクトリ構成やテスト方法は、千葉工業大学 ロボットシステム学（2025）の講義資料を参考にしています。
 
-・千葉工業大学 ロボットシステム学（2025）の講義資料
-   [ryuichiueda/slides_marp/robosys2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
+・[千葉工業大学 ロボットシステム学（2025）の講義資料](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
